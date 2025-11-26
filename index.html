@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="Gemini_Generated_Image_9hszk79hszk79hsz-removebg-preview.png" height="60">
+        </div>
+
+        <nav>
+            <a class="nav-link active" data-page="home">Home</a>
+            <a class="nav-link" data-page="pricing">Pricing</a>
+            <a class="nav-link" data-page="support">Support</a>
+            <a class="nav-link" data-page="about">About</a>
+        </nav>
+
+        <div class="nav-controls">
+            <select id="currency-select" class="currency-select">
+                <option value="usd">USD</option>
+                <option value="inr">INR</option>
+                <option value="eur">EUR</option>
+            </select>
+            <button class="cta-button">Sign Up <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </header>
+
+    <div class="container" id="page-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
